@@ -12,6 +12,7 @@ public class MobilePhone {
     public MobilePhone(String phoneNumber){
         this.myNumber=phoneNumber;
         myContacts =  new ArrayList<Contact>();
+        System.out.println("9");
     }
 
     public boolean removeContact(Contact c){
